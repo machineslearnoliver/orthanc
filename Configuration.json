@@ -92,7 +92,7 @@
   "DicomServerEnabled": true,
 
   // The DICOM Application Entity Title
-  "DicomAet": "ORTHANC",
+  "DicomAet": "PYNETDICOM",
 
   // Check whether the called AET corresponds to the AET of Orthanc
   // during an incoming DICOM SCU request
@@ -274,7 +274,7 @@
   // If set to "true", debug messages from libcurl will be issued
   // whenever Orthanc makes an outgoing HTTP request. This is notably
   // useful to debug HTTPS-related problems.
-  "HttpVerbose": false,
+  "HttpVerbose": true,
 
   // Set the timeout for HTTP requests issued by Orthanc (in seconds).
   "HttpTimeout": 10,
