@@ -10,12 +10,12 @@
   // Path to the directory that holds the heavyweight files (i.e. the
   // raw DICOM instances). Backslashes must be either escaped by
   // doubling them, or replaced by forward slashes "/".
-  "StorageDirectory": "OrthancStorage",
+  "StorageDirectory": "OrthancStorageDIR",
 
   // Path to the directory that holds the SQLite index (if unset, the
   // value of StorageDirectory is used). This index could be stored on
   // a RAM-drive or a SSD device for performance reasons.
-  "IndexDirectory": "OrthancStorage",
+  "IndexDirectory": "OrthancStorageDIR",
 
   // Path to the directory where Orthanc stores its large temporary
   // files. The content of this folder can be safely deleted if
@@ -164,9 +164,9 @@
      * command line "storescp 2000".
      **/
     // "sample" : [ "STORESCP", "127.0.0.1", 2000 ]
-    "jing": ["Jing-acer", "10.131.6.89", 2000],
+    // "jing": ["Jing-acer", "10.131.6.89", 2000],
     //"test" : [ "NAME", "localhost", 104 ],
-    "pynetdicom": ["PYNETDICOM", "localhost", 2000]
+    "pynetdicom": ["PYNETDICOM", "seemode", 2000]
 
     /**
      * A fourth parameter is available to enable patches for
