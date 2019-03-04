@@ -1,3 +1,4 @@
 #! /bin/bash
 
-Orthanc /etc/orthanc/Configuration.json 
+Orthanc 
+# /etc/orthanc/Configuration.json 
