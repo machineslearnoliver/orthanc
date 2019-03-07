@@ -92,7 +92,7 @@
   "DicomServerEnabled": true,
 
   // The DICOM Application Entity Title
-  "DicomAet": "see_mode_ae",
+  "DicomAet": "PYNETDICOM",
 
   // Check whether the called AET corresponds to the AET of Orthanc
   // during an incoming DICOM SCU request
