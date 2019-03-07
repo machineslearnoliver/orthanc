@@ -5,17 +5,17 @@
 
   // The logical name of this instance of Orthanc. This one is
   // displayed in Orthanc Explorer and at the URI "/system".
-  "Name": "MyOrthanc",
+  "Name": "OrthancTestServer",
 
   // Path to the directory that holds the heavyweight files (i.e. the
   // raw DICOM instances). Backslashes must be either escaped by
   // doubling them, or replaced by forward slashes "/".
-  "StorageDirectory": "OrthancStorageDIR",
+  "StorageDirectory": "OrthancStorage",
 
   // Path to the directory that holds the SQLite index (if unset, the
   // value of StorageDirectory is used). This index could be stored on
   // a RAM-drive or a SSD device for performance reasons.
-  "IndexDirectory": "OrthancStorageDIR",
+  "IndexDirectory": "OrthancStorage",
 
   // Path to the directory where Orthanc stores its large temporary
   // files. The content of this folder can be safely deleted if
@@ -92,7 +92,7 @@
   "DicomServerEnabled": true,
 
   // The DICOM Application Entity Title
-  "DicomAet": "PYNETDICOM",
+  "DicomAet": "see_mode_ae",
 
   // Check whether the called AET corresponds to the AET of Orthanc
   // during an incoming DICOM SCU request
@@ -166,7 +166,7 @@
     // "sample" : [ "STORESCP", "127.0.0.1", 2000 ]
     // "jing": ["Jing-acer", "10.131.6.89", 2000],
     //"test" : [ "NAME", "localhost", 104 ],
-    "pynetdicom": ["PYNETDICOM", "13.250.236.230", 2000]
+    "pynetdicom": ["see_mode_ae", "13.250.236.230", 2000]
 
     /**
      * A fourth parameter is available to enable patches for
