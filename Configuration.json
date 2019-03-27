@@ -166,7 +166,7 @@
     // "sample" : [ "STORESCP", "127.0.0.1", 2000 ]
     // "jing": ["Jing-acer", "10.131.6.89", 2000],
     //"test" : [ "NAME", "localhost", 104 ],
-    "pynetdicom": ["PYNETDICOM", "https://dev-backend.see-mode.com", 2000]
+    "pynetdicom": ["PYNETDICOM", "dev-backend.see-mode.com", 2000]
     //"local": ["PYNETDICOM", "seemode", 2000]
 
     /**
