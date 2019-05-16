@@ -136,7 +136,7 @@
   "RemoteAccessAllowed": true,
 
   // Whether or not SSL is enabled
-  "SslEnabled": false,
+  "SslEnabled": true,
 
   // Path to the SSL certificate in the PEM format (meaningful only if
   // SSL is enabled)
