@@ -66,7 +66,7 @@
   // Enable the HTTP server. If this parameter is set to "false",
   // Orthanc acts as a pure DICOM server. The REST API and Orthanc
   // Explorer will not be available.
-  "HttpServerEnabled": true,
+  "HttpServerEnabled": false,
 
   // HTTP port for the REST services and for the GUI
   "HttpPort": 8042,
@@ -166,7 +166,7 @@
     // "sample" : [ "STORESCP", "127.0.0.1", 2000 ]
     // "jing": ["Jing-acer", "10.131.6.89", 2000],
     //"test" : [ "NAME", "localhost", 104 ],
-    // "productionbackend": ["PYNETDICOM", "production-backend.see-mode.com", 2000],
+    "productionbackend": ["PYNETDICOMPROD", "production-backend.see-mode.com", 2000],
     "stagingbackend": ["PYNETDICOM", "staging-backend.see-mode.com", 2000]
 
     //"local": ["PYNETDICOM", "seemode", 2000]
